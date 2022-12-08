@@ -2,7 +2,8 @@
 
 1. Gå till index.js 
 2. Jobba övning för övning
-3. När du använder map, filter, reduce etc öva även på att skriva arrowfunktioner. 
+
+När du använder map, filter, reduce etc öva även på att skriva arrowfunktioner. 
   
  ```
   const numbers = [1,2,3,4,11]
