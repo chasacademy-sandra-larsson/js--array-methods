@@ -7,17 +7,19 @@
   ```
 const numbers = [1,2,3,4,11]
 
+//Istället för detta
+const filteredNumbers = numbers.filter(function(element) {
+  return element > 10;
+})
+
+// Använd
  const filteredNumbers = numbers.filter((element) => {
    return element > 10 ;
  })
 
 
-// Eller med implicit return
+// eller med implicit return
 const filteredNumbers = numbers.filter(element => element > 10)
 
 
-//Istället för 
-const filteredNumbers = numbers.filter(function(element) {
-  return element > 10;
-})
 ```
