@@ -1,4 +1,4 @@
-# Öva Javascript Arraymetoder
+# Öva Javascript Arraymetoder 🏋️‍♂️
 
 1. Gå till index.js 
 2. Jobba övning för övning
