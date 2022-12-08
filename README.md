@@ -4,7 +4,7 @@
 2. Jobba övning för övning
 3. När du använder map, filter, reduce etc öva även på att skriva arrowfunktioner. 
   
-   ```
+ ```
   const numbers = [1,2,3,4,11]
 
   //Istället för detta
@@ -19,4 +19,5 @@
 
   // eller med implicit return
   const filteredNumbers = numbers.filter(element => element > 10)
+  
   ```
