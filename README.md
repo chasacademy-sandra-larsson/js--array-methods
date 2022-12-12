@@ -22,3 +22,5 @@ När du använder map, filter, reduce etc öva även på att skriva arrowfunktio
   const filteredNumbers = numbers.filter(element => element > 10)
   
   ```
+
+Lycka till! 😄
