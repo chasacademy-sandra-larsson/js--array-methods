@@ -95,4 +95,12 @@ const tweets = [
   // 12. Gör om så att 'name' skrivs "förnamn efernamn" istället för nuvarande "efternamn, förnamn"
 
 
+  //------------------och en sista -------------------  //
+
+   // Bonus! Kan komma att behövas på inlämningsuppgiftens VG-del
+    
+   // Array.prototype.reduce() och Array.prototype.includes()
+   // 13. M h a recuce() skapa en ny array som innehåller representerade kategorier i products. Acculumulatorn kan även börja från en tom array!
    
+   const products = ['t-shirt', 'trousers', 'polos', 'shoes', 'jewellery', 'trousers','shoes', 'trousers',  'jewellery',  'trousers', 'polos', 't-shirt', 't-shirt']
+
