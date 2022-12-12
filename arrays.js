@@ -15,7 +15,6 @@ const tweets = [
 
 
 
-
   // Array.prototype.findIndex() och Array.prototype.slice()
   // 2. Hitta kommentaren med id 2039842 och ta sedan bord den kommentaren
 
