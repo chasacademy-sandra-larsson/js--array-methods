@@ -92,6 +92,8 @@ const tweets = [
   // 11. Är alla spelare äldre än 20 år?
 
 
-  // Array.prototype.map()
+  // Array.prototype.map() och Array.prototype.split()
   // 12. Gör om så att 'name' skrivs "förnamn efernamn" istället för nuvarande "efternamn, förnamn"
+
+
    
