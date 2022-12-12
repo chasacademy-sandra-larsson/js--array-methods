@@ -53,29 +53,25 @@ const tweets = [
 
 
 
-  // Array.prototype.findIndex()
-  // 6. Det finns en fake-författare i authors - som är död före den är född! Hitta elementet!
-
-
-
-  // Array.protype.splice() 
-  // 7. Ta bort fake-författaren som du hittade i 3). I nästommande övningar använder du den nya arrayen utan fake-författaren
+  // Array.prototype.findIndex() och Array.protype.splice() 
+  // 6. Det finns en fake-författare i authors - som är död före den är född! Hitta elementet och ta bort det med Array.prototype.splice()!
+  // I nästkommande övningar använder du den nya arrayen utan fake-författaren
 
 
 
   // Array.protoype.sort()
-  // 8. Sortera arrayen i stigande ordning utifrån födelseår - äldst till yngst
+  // 7. Sortera arrayen i stigande ordning utifrån födelseår - äldst till yngst
 
 
 
   // Array.protoype.sort()
-  // 9. Sortera arrayen utifrån hur många år varje författare har levt - från flest år till minst år
+  // 8. Sortera arrayen utifrån hur många år varje författare har levt - från flest år till minst år
   
   
   
   
   // Array.protype.reduce()
-  // 10.. Beräkna hur totala antalet år som ALLA författare har levt
+  // 9. Beräkna hur totala antalet år som ALLA författare har levt
 
 
 
@@ -91,13 +87,13 @@ const tweets = [
 
 
   // Array.prototype.some() 
-  // 11. Finns det någon spelare som är äldre än 35 år?
+  // 10. Finns det någon spelare som är äldre än 35 år?
 
 
   // Array.prototype.every() 
-  // 12. Är alla spelare äldre än 20 år?
+  // 11. Är alla spelare äldre än 20 år?
 
 
   // Array.prototype.map()
-  // 13. Gör om så name skrivs "förnamn efernamn" iställer för nuvarande "efternamn, förnamn"
+  // 12. Gör om så name skrivs "förnamn efernamn" iställer för nuvarande "efternamn, förnamn"
    
