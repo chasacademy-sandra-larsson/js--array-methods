@@ -93,5 +93,5 @@ const tweets = [
 
 
   // Array.prototype.map()
-  // 12. Gör om så name skrivs "förnamn efernamn" iställer för nuvarande "efternamn, förnamn"
+  // 12. Gör om så att 'name' skrivs "förnamn efernamn" istället för nuvarande "efternamn, förnamn"
    
