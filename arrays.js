@@ -6,7 +6,7 @@ const tweets = [
     { text: 'Elon Musk is ..', id: 523423 },
     { text: 'World Cup Quatar is ..', id: 823423 },
     { text: 'Bye bye Cov-id..', id: 2039842 },
-    { text: 'Ramen is my fav food ever', id: 123523 },
+    { text: 'Meathballs, oh meatballs', id: 123523 },
     { text: 'Nice Nice Nice!', id: 542328 }
   ];
 
