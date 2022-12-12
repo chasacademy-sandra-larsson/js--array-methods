@@ -42,20 +42,18 @@ const tweets = [
     { first: 'Alexandr', last: 'Blok', year: 1880, passed: 1921 }
   ];
 
+  // Array.prototype.findIndex() och Array.protype.splice() 
+  // 4. Det finns en fake-författare i authors - som är död före den är född! Hitta elementet och ta bort det med Array.prototype.splice()!
+
+
 
   // Använd Array.prototype.map
-  // 4. Skapa en array med varje författares för- och efternamn från arrayen authors
+  // 5. Skapa en array med varje författares för- och efternamn från arrayen authors
    
   
   
   // Array.prototype.filter()
-  // 5. Filtrera arrayen authors utifrån författare som föddes på 1800-talet
-
-
-
-  // Array.prototype.findIndex() och Array.protype.splice() 
-  // 6. Det finns en fake-författare i authors - som är död före den är född! Hitta elementet och ta bort det med Array.prototype.splice()!
-  // I nästkommande övningar använder du den nya arrayen utan fake-författaren
+  // 6. Filtrera arrayen authors utifrån författare som föddes på 1800-talet
 
 
 
