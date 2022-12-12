@@ -38,7 +38,7 @@ const tweets = [
     { first: 'Leonid', last: 'Andrejev', year: 1871, passed: 1919 },
     { first: 'Mirra', last: 'Lokhvitskaya', year: 1869, passed: 1905 },
     { first: 'Ivan', last: 'Krylov', year: 1769, passed: 1844 },
-    { first: 'Michail', last: 'Lermontov', year: 1814, passed: 1941 },
+    { first: 'Michail', last: 'Lermontov', year: 1814, passed: 1841 },
     { first: 'Alexandr', last: 'Blok', year: 1880, passed: 1921 }
   ];
 
