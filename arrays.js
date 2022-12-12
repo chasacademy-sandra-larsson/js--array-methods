@@ -49,7 +49,7 @@ const tweets = [
   
   
   // Array.prototype.filter()
-  // 5. Filtrera arrayen authors utifrån författaren som föddes på 1800-talet
+  // 5. Filtrera arrayen authors utifrån författare som föddes på 1800-talet
 
 
 
