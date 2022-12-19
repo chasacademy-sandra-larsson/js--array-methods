@@ -1,6 +1,6 @@
 # Öva Javascript Arraymetoder 🏋️‍♂️
 
-1. Gå till index.js 
+1. Gå till arrays.js 
 2. Jobba övning för övning
 
 När du använder map, filter, reduce etc öva även på att skriva arrowfunktioner. 
