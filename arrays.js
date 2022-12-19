@@ -33,6 +33,7 @@ const tweets = [
     { first: 'Anton', last: 'Tjechov', year: 1860, passed: 1904 },
     { first: 'Vladimir', last: 'Nabokov', year: 1899, passed: 1997 },
     { first: 'Maksim', last: 'Gorkij', year: 1868, passed: 1936 },
+    { first: 'Koldan', last: 'Egorov', year: 1921, passed: 1821 },
     { first: 'Nikolaj', last: 'Gogl', year: 1809, passed: 1852 },
     { first: 'Leonid', last: 'Andrejev', year: 1871, passed: 1919 },
     { first: 'Mirra', last: 'Lokhvitskaya', year: 1869, passed: 1905 },
