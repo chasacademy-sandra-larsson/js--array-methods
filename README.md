@@ -3,7 +3,7 @@
 1. Gå till arrays.js 
 2. Jobba övning för övning
 
-När du använder map, filter, reduce etc öva även på att skriva arrowfunktioner. 
+När du använder map, filter, reduce, sort etc öva även på att skriva arrowfunktioner. 
   
  ```
   const numbers = [1,2,3,4,11]
