@@ -1,4 +1,5 @@
 
+// Observera att du ska använda dig av arraymetoderna  map, filter, reduce, sort utan att förändra orginalobjektet!
 
 //------------------ data att jobba med - tweets -------------------  //
 
@@ -10,18 +11,12 @@ const tweets = [
     { text: 'Nice Nice Nice!', id: 542328 }
   ];
 
-  // Array.prototype.find()
-  // 1. Hitta kommentaren med id 823423
+  // 1. Använd Array.prototype.filter() för att ta bort kommentaren med id 823423
+  
 
 
+  // 2. Använd Array.prototype.map() för att lägga till <li> taggar runt varje tweet-text. Arrayen ska slås ihop till en sträng med hjälp av Array.prototype.join() som ska läggas till i ul-elementet i DOM:en (se index.html). 
 
-  // Array.prototype.findIndex() och Array.prototype.splice()
-  // 2. Hitta kommentaren med id 2039842 och ta sedan bord den kommentaren
-
-
-
-  // Array.prototype.map() och Array.prototype.join()
-  // 3. Generera HTML för en ul-lista är varje li innehåller värdet i 'text'. Lägg till ul-listan på index.html
 
 
   //------------------ny data att jobba med - authors -------------------  //
@@ -42,35 +37,29 @@ const tweets = [
     { first: 'Alexandr', last: 'Blok', year: 1880, passed: 1921 }
   ];
 
-  // Array.prototype.findIndex() och Array.protype.splice() 
-  // 4. Det finns en fake-författare i authors - som är död före den är född! Hitta elementet och ta bort det med Array.prototype.splice()!
-
-
-
-  // Använd Array.prototype.map
-  // 5. Skapa en array med varje författares för- och efternamn från arrayen authors
-   
   
+  // 3. Det finns en fake-författare i authors som är död före den är född! Hitta elementet genom att använda Array.prototype.filter()
+
+
+
+  // 4. Använd Array.prototype.map för att skapa en array som innehåller endast författarnas fullständiga namn (förnamn och efternamn)
+
+
   
-  // Array.prototype.filter()
-  // 6. Filtrera arrayen authors utifrån författare som föddes på 1800-talet
+  // 5. Använd Array.prototype.filter() för att skapa en array för författare som föddes på 1800-talet
 
 
-
-  // Array.protoype.sort()
-  // 7. Sortera arrayen i stigande ordning utifrån födelseår - äldst till yngst
-
+ 
+   // 6. Anvvänd Array.protoype.sort() för att skapa en aarray som innehåller författarna sorterade i bokstavsordning (stigande ordning) efter efternamn
 
 
-  // Array.protoype.sort()
-  // 8. Sortera arrayen utifrån hur många år varje författare har levt - från flest år till minst år
   
-  
-  
-  
-  // Array.protype.reduce()
-  // 9. Beräkna hur totala antalet år som ALLA författare har levt
+   // 7. Använd Array.protoype.sort() för att skapa en aarray som innehåller författarna sorterade i fallande ordning efter hur många år de levde
 
+
+
+  // 8. Använd Array.protype.reduce() för att skapa en array som innehåller författarnas totala ålder
+  
 
 
   //------------------ny data att jobba med - players -------------------  //
@@ -84,24 +73,24 @@ const tweets = [
   ];
 
 
-  // Array.prototype.some() 
-  // 10. Finns det någon spelare som är äldre än 35 år?
+  // 9. Använd Array.prototype.some() för att ta reda på om någon spelare är äldre än 35 år?
 
 
-  // Array.prototype.every() 
-  // 11. Är alla spelare äldre än 20 år?
+
+  // 10. Använd Array.prototype.every()  för att ta reda på om alla spelare är äldre än 20 år?
 
 
-  // Array.prototype.map() och Array.prototype.split()
-  // 12. Gör om så att 'name' skrivs "förnamn efernamn" istället för nuvarande "efternamn, förnamn"
+
+  // 11. Använd Array.prototype.map() och Array.prototype.split() för att göra om 'name' så att den innehåller 'förnamn efternamn' i stället för nuvarande "efternamn, förnamn"
 
 
+  
   //------------------och en sista -------------------  //
 
-   // Bonus! Kan komma att behövas på inlämningsuppgiftens VG-del
+   // Bonus! 
     
-   // Array.prototype.reduce() och Array.prototype.includes()
-   // 13. M h a recuce() skapa en ny array som innehåller representerade kategorier i products. Acculumulatorn kan även börja från en tom array!
-   
-   const products = ['t-shirt', 'trousers', 'polos', 'shoes', 'jewellery', 'trousers','shoes', 'trousers',  'jewellery',  'trousers', 'polos', 't-shirt', 't-shirt']
+   // 12. Använd Array.prototype.reduce() samt Array.prototype.includes() för att skapa en array som innehåller endast unika värden från arrayen products.
+   // Lite annan variant av reduce() - istället för att börja på accumalatorn på 0, börja på en tom array och pusha in värden i den!
 
+
+   // Den unika arrayen ska alltå se ut så här: ['t-shirt', 'trousers', 'polos', 'shoes', 'jewellery']
